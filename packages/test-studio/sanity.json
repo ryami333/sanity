@@ -36,6 +36,7 @@
     "@sanity/storybook",
     "@sanity/google-maps-input",
     "@sanity/vision",
+    "@sanity/groups",
     "@sanity/production-preview"
   ],
   "parts": [
