@@ -854,15 +854,6 @@
     },
 
     {
-      "name": "part:@sanity/components/utilities/portal",
-      "description": "React portal"
-    },
-    {
-      "implements": "part:@sanity/components/utilities/portal",
-      "path": "utilities/Portal/index.js"
-    },
-
-    {
       "name": "part:@sanity/components/utilities/stacked",
       "description": "Stacking. Used for overlays/portals and things that closes with esc or clickOutside"
     },
