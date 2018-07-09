@@ -16,7 +16,8 @@ import Snackbar from 'part:@sanity/components/snackbar/default'
 const TYPE_ITEMS = dataAspects.getInferredTypes().map(typeName => ({
   key: typeName,
   name: typeName,
-  title: dataAspects.getDisplayName(typeName)
+  title: dataAspects.getDisplayName(typeName),
+  icon: dataAspects.getIcon(typeName)
 }))
 
 export default class SchemaPaneResolver extends React.Component {
